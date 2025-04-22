@@ -20,7 +20,7 @@ const Projects = () => {
 
     {
       image: hosttar,
-      title: "Hostatr website",
+      title: "Hosttar website",
       description: "Built Hostatr website",
       language: ["Html, Css"],
       liveDemoUrl: "https://yogesh5454.github.io/hosttar.github.io/",
@@ -41,7 +41,7 @@ const Projects = () => {
       title: "Portfolio",
       description: "Built portfolio website for myself",
       language: ["React, JS, Tailwind css, Css"],
-      liveDemoUrl: "https://portfolio-five-orcin-99.vercel.app/",
+      liveDemoUrl: "https://portfolio-omega-three-15.vercel.app/",
       codeUrl: "https://github.com/yogesh5454/Portfolio",
     },
     {

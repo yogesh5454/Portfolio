@@ -67,7 +67,7 @@ const Experience = () => {
   ];
 
   return (
-    <div className="py-12 min-h-screen bg-gradient-to-br from-teal-50 to-gray-100 ">
+    <div className="py-12  bg-gradient-to-br from-teal-50 to-gray-100 ">
       <div className="max-w-3xl mt-30 mx-auto px-6 text-center">
         <h3>
           <span className="rounded-full border-gray-200 bg-teal-100 text-teal-600 text-sm font-medium px-4 py-2 animate-pulse">

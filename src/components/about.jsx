@@ -6,7 +6,7 @@ import photo from "./images/profile.jpg";
 const About = () => {
   return (
     <div className=" flex items-center  px-8 py-12">
-      <div className="flex gap-8 w-full">
+      <div className="flex flex-wrap justify-center gap-8 w-full">
         <div className="w-1/3 max-w-xs">
           <img
             className="rounded-full h-64 w-64 object-cover shadow-lg hover:shadow-xl transition-shadow duration-300"

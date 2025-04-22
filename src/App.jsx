@@ -8,7 +8,7 @@ import Experience from "./components/experience";
 import Projects from "./components/projects";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 function App() {
 
 

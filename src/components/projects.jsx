@@ -1,5 +1,5 @@
 import React from "react";
-import Projectsfun from "./Projectsfun";
+import Projectsfun from "./projectsfun";
 import { FaGithub } from "react-icons/fa";
 import noteapp from "./images/noteapp.png";
 import hosttar from "./images/Hosttar.png";

@@ -2,7 +2,7 @@ import React from "react";
 import { BsBoxArrowInUpRight } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 
-const Projectsfun = ({ image, title, description, language }) => {
+const Projectsfun = ({ image, title, description, language, liveDemoUrl, codeUrl }) => {
   return (
     <div className="bg-white rounded-lg shadow-md w-80 hover:shadow-lg transition-shadow duration-300">
       <img className="w-80 h-48 object-cover rounded-t-lg" src={image} alt={title} />
@@ -15,7 +15,7 @@ const Projectsfun = ({ image, title, description, language }) => {
         {language.map((lang, index) => (
           <span
             key={index}
-            className="bg-purple-100 text-purple-700 text-sm font-medium px-3 py-1 rounded-full"
+            className="bg-purple-100 text-purple-600 text-sm font-medium px-3 py-1 rounded-full"
           >
             {lang}
             {index < language.length - 1 ? ", " : ""}
@@ -24,12 +24,22 @@ const Projectsfun = ({ image, title, description, language }) => {
       </div>
 
       <div className="flex gap-2 mb-4 px-4">
-        <button className="flex items-center border border-purple-300 text-purple-600 rounded-md hover:bg-purple-100 p-2 transition duration-300">
+        <a
+          href={liveDemoUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center border border-purple-300 text-purple-600 rounded-md hover:bg-purple-100 p-2 transition duration-300"
+        >
           <BsBoxArrowInUpRight className="mr-2" /> Live Demo
-        </button>
-        <button className="flex items-center border border-purple-300 text-purple-600 rounded-md hover:bg-purple-100 p-2 transition duration-300">
+        </a>
+        <a
+          href={codeUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center border border-purple-300 text-purple-600 rounded-md hover:bg-purple-100 p-2 transition duration-300"
+        >
           <FaGithub className="mr-2" /> Code
-        </button>
+        </a>
       </div>
     </div>
   );

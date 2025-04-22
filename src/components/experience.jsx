@@ -42,34 +42,27 @@
 
 // export default Experience;
 
-
 import React from "react";
 import Experiencefun from "./experiencefun";
 
 const Experience = () => {
   const experience = [
+
     {
-      period: "2025/03/01-present",
-      title: "React developer intern",
-      organization: "Softtech foundation",
+      period: "📅 2018 – 2020",
+      title: "🎓 Intermediate Level",
+      organization: "Kathmandu Model Secondary School,Bagbazzar",
       description:
-        "Done frontend development intern focused on react.Buid dynamic and function websites using react",
+        "Completed higher secondary education with a focus on science. Studied core subjects including Physics, Chemistry, and Mathematics",
     },
     {
-      period: "2018-2020",
-      title: "Intermediate level",
-      organization: "Kathmandu Model Secondary School",
-      description:
-        "Took science faculty . studied various subjects like physics ,Chmeistry,Math etc.",
-    },
-    {
-      period: "2021-present",
+      period: "📅 2021 – Present",
       title:
-        "Bachelor of science in Computer Science and Information Technology",
+        "🎓 Bachelor of Science in Computer Science and Information Technology",
       organization:
-        "Asian School of Management and Technology(Affiliated to T.U)",
+        "Asian School of Management and Technology(Affiliated to T.U),Gongabu",
       description:
-        "studied CSIT in bachelor level;Studied various courses like c,c++,c#,DSA,SAD throughout eight semester",
+        "Pursuing a Bachelor's degree in CSIT. Completed coursework in programming languages (C, C++, C#), Data Structures & Algorithms (DSA),Web Technology and System Analysis & Design (SAD) across eight semesters.",
     },
   ];
 

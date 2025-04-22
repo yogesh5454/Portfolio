@@ -11,16 +11,17 @@ const Skills = () => {
     "Git",
     "Responsive Design",
     "Php",
-    "DSA",
+
     "Bootstrap",
     "C",
     "C++",
-    "Java",
+    
+    "Jira",
   ];
 
   return (
-    <div className="py-16 min-h-screen bg-gradient-to-br from-indigo-50 to-gray-100">
-      <div className="max-w-7xl mt-40 mx-auto px-6 text-center">
+    <div className="py-16  bg-gradient-to-br from-indigo-50 to-gray-100">
+      <div className="max-w-7xl mt-20 mx-auto px-6 text-center">
         <h4>
           <span className="rounded-full border-gray-200 bg-indigo-100 text-indigo-600 text-sm font-medium px-4 py-2 animate-pulse">
             My Toolkit

@@ -20,20 +20,19 @@ const Footer = () => {
             </p>
             <div className="flex gap-4">
               <a
-                href="https://github.com"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="https://github.com/yogesh5454"
+                
               >
                 <FaGithub className="text-2xl text-purple-600 hover:text-purple-700 transition-transform hover:scale-105" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/yogesh-sapkota-12422021a/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedin className="text-2xl text-purple-600 hover:text-purple-700 transition-transform hover:scale-105" />
               </a>
-              <a href="mailto:hello@jeremele.com">
+              <a href="mailto:yogesh111sapkota@gmail.com">
                 <FaEnvelope className="text-2xl text-purple-600 hover:text-purple-700 transition-transform hover:scale-105" />
               </a>
             </div>

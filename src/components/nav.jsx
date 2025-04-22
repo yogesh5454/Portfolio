@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaAffiliatetheme, FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 import { TiDocumentText } from "react-icons/ti";
 
 const Nav = () => {
@@ -57,9 +57,8 @@ const Nav = () => {
       </div>
 
       <div className="hidden md:flex items-center gap-4 z-20">
-        <FaAffiliatetheme className="text-purple-600 text-xl hover:text-purple-700 transition duration-300" />
         <a
-          href="/path/to/resume.pdf"
+          href="https://drive.google.com/file/d/1CLin7o-QzLSekolNe7Qy6RKnyC7ZzXXJ/view?usp=sharing"
           download
           className="flex items-center gap-1 border-2 border-purple-600 text-purple-600 px-3 py-1 rounded-full hover:bg-purple-600 hover:text-white transition duration-300"
         >
@@ -107,10 +106,8 @@ const Nav = () => {
               Contact
             </a>
             <div className="flex items-center gap-4">
-              <FaAffiliatetheme className="text-purple-600 text-xl hover:text-purple-700 transition duration-300" />
               <a
-                href="/path/to/resume.pdf"
-                download
+                href="https://drive.google.com/file/d/1CLin7o-QzLSekolNe7Qy6RKnyC7ZzXXJ/view?usp=sharing"
                 className="flex items-center gap-1 border-2 border-purple-600 text-purple-600 px-3 py-1 rounded-full hover:bg-purple-600 hover:text-white transition duration-300"
                 onClick={toggleMenu}
               >

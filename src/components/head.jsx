@@ -24,7 +24,8 @@ const Head = () => {
        <a href="#projects">View projects</a>      <FaArrowRight className="ml-2" />
           </button>
           <button className="flex border-2 border-indigo-600 text-indigo-600 p-2 rounded-full px-6 py-3 hover:bg-indigo-50 transition duration-300 items-center shadow-md hover:shadow-lg">
-            Download Resume <MdOutlineFileDownload className="ml-2" />
+            <a href="https://drive.google.com/file/d/1CLin7o-QzLSekolNe7Qy6RKnyC7ZzXXJ/view?usp=sharing">Download Resume </a>
+            <MdOutlineFileDownload className="ml-2" />
           </button>
         </div>
         <div className="justify-items-center my-7">

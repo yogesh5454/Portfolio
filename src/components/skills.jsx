@@ -13,9 +13,7 @@ const Skills = () => {
     "Php",
 
     "Bootstrap",
-    "C",
-    "C++",
-    
+
     "Jira",
   ];
 
